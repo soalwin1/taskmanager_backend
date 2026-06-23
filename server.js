@@ -115,6 +115,18 @@ app.use(express.json());
 // Health check (used by Docker HEALTHCHECK)
 app.get('/api/health', (_req, res) => res.status(200).json({ status: 'ok' }));
 
+// Server status welcome endpoint
+app.get('/api/status', (_req, res) => res.status(200).json({ 
+  message: 'Backend server is running successfully!', 
+  status: 'healthy', 
+  timestamp: new Date() 
+}));
+
+// Root test endpoint
+app.get("/", (req, res) => {
+  res.send("API Running");
+});
+
 // Routes
 app.use('/api', authRoutes);
 app.use('/api/tasks', taskRoutes);
