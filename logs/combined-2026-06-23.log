@@ -173,3 +173,4 @@ Error: listen EADDRINUSE: address already in use :::5000
 2026-06-23 10:58:05:585 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 237.400 ms | User: Admin User (admin@gmail.com)
 2026-06-23 10:58:14:5814 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 239.076 ms | User: irine thomas (irine@gmail.com)
 2026-06-23 10:58:15:5815 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 237.364 ms | User: irine thomas (irine@gmail.com)
+2026-06-23 14:51:51:5151 [INFO]: Connected to PostgreSQL

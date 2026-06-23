@@ -6,7 +6,7 @@ import Employee from '../models/Employee.js';
 import DesignationPermission from '../models/DesignationPermission.js';
 import multer from 'multer';
 import crypto from 'crypto';
-import nodemailer from 'nodemailer';
+import { Resend } from 'resend';
 import { verify } from 'otplib';
 import { loginLimiter, otpLimiter, forgotPassLimiter } from '../middleware/rateLimiter.js';
 
@@ -105,7 +105,7 @@ router.post('/login', loginLimiter, async (req, res) => {
 
     // Send OTP email
     const mailOptions = {
-      from: process.env.FROM_ADDRESS || `"TaskFlow Support" <${process.env.EMAIL_USER}>`,
+      from: process.env.FROM_ADDRESS || 'onboarding@resend.dev',
       to: employee.email,
       subject: 'Your Login OTP - TaskFlow',
       html: `
@@ -133,10 +133,14 @@ router.post('/login', loginLimiter, async (req, res) => {
     };
 
     try {
-      await getTransporter().sendMail(mailOptions);
+      const { data, error } = await resend.emails.send(mailOptions);
+      if (error) {
+        throw new Error(error.message);
+      }
     } catch (mailError) {
       console.warn('--- EMAIL DELIVERY FAILED (Local Fallback) ---');
       console.warn('OTP is:', otp);
+      console.warn('Resend error:', mailError.message);
     }
 
     res.json({ message: 'OTP sent to your email. Please verify to login.', requiresOtp: true, mfaType: 'email', email: employee.email });
@@ -235,22 +239,8 @@ router.post('/verify-otp', otpLimiter, async (req, res) => {
   }
 });
 
-// Setup mail transporter helper
-let transporter;
-const getTransporter = () => {
-  if (!transporter) {
-    transporter = nodemailer.createTransport({
-      host: process.env.EMAIL_HOST,
-      port: parseInt(process.env.EMAIL_PORT) || 465,
-      secure: process.env.EMAIL_SECURE === 'true',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-      }
-    });
-  }
-  return transporter;
-};
+// Setup Resend client
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Forgot Password Route
 // Rate limited: 3 attempts per 60 minutes per IP
@@ -278,7 +268,7 @@ router.post('/forgot-password', forgotPassLimiter, async (req, res) => {
 
     // Mail options
     const mailOptions = {
-      from: process.env.FROM_ADDRESS || `"TaskFlow Support" <${process.env.EMAIL_USER}>`,
+      from: process.env.FROM_ADDRESS || 'onboarding@resend.dev',
       to: employee.email,
       subject: 'Password Reset Request - TaskFlow',
       html: `
@@ -310,12 +300,15 @@ router.post('/forgot-password', forgotPassLimiter, async (req, res) => {
     };
 
     try {
-      await getTransporter().sendMail(mailOptions);
+      const { data, error } = await resend.emails.send(mailOptions);
+      if (error) {
+        throw new Error(error.message);
+      }
       res.json({ message: 'Password reset link sent to your email successfully.' });
     } catch (mailError) {
       console.warn('--- EMAIL DELIVERY FAILED (Local Fallback) ---');
-      console.warn('Nodemailer error:', mailError.message);
-      console.warn('This is expected if there is no internet or SMTP port 465 is blocked.');
+      console.warn('Resend error:', mailError.message);
+      console.warn('This is expected if there is no internet or Resend API key is invalid.');
       console.warn('Copy and use the following link to reset your password:');
       console.warn(resetUrl);
       console.warn('----------------------------------------------');
