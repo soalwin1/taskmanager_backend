@@ -1,0 +1,10 @@
+{"level":"http","message":"GET /api/health 200 15 - 0.677 ms - User: anonymous (anonymous)","timestamp":"2026-06-08 14:34:08:348"}
+[2m2026-06-08 14:47:23:4723[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/health[0m [32m200[0m 15 - 0.652 ms - [2mUser: [37m[1manonymous[0m [37m[1m(anonymous)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/uploads/profilePicture-1779260037740-725820745.jpeg[0m [36m304[0m - - 23.221 ms - [2mUser: [37m[1manonymous[0m [37m[1m(anonymous)[0m
+2026-06-08 14:49:37:4937 [HTTP]: GET /api/health | Status: 200 | Size: 15 B | Time: 0.519 ms | User: anonymous (anonymous)
+2026-06-08 14:51:39:5139 [HTTP]: POST /api/login | Status: - | Size: - B | Time: - ms | User: anonymous (anonymous)
+2026-06-08 14:52:04:524 [HTTP]: POST /api/login | Status: - | Size: - B | Time: - ms | User: anonymous (anonymous)
+2026-06-08 14:52:41:5241 [HTTP]: POST /api/login | Status: 200 | Size: 123 B | Time: 2923.615 ms | User: anonymous (anonymous)
+2026-06-08 14:52:45:5245 [HTTP]: POST /api/login | Status: 200 | Size: 123 B | Time: 3565.879 ms | User: anonymous (anonymous)
+2026-06-08 14:53:01:531 [HTTP]: POST /api/verify-otp | Status: 200 | Size: 1156 B | Time: 14.120 ms | User: anonymous (anonymous)
+2026-06-08 14:53:01:531 [HTTP]: GET /api/uploads/profilePicture-1778734473730-277927101.jpg | Status: 304 | Size: - B | Time: 5.422 ms | User: anonymous (anonymous)

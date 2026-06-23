@@ -1,0 +1,7 @@
+2026-06-23 09:58:12:5812 [ERROR]: Uncaught Exception! Shutting down server... listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at file:///C:/Users/soalw/OneDrive/Desktop/inciem%20tasks/backend/server.js:188:12
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

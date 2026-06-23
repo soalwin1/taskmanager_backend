@@ -1,0 +1,56 @@
+{"level":"info","message":"Connected to MongoDB","timestamp":"2026-06-08 14:33:59:3359"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2026-06-08 14:33:59:3359"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2026-06-08 14:34:03:343"}
+{"level":"http","message":"GET /api/user/me 200 421 - 19.340 ms - User: soalwin thomas (soalwin@gmail.com)","timestamp":"2026-06-08 14:34:08:348"}
+{"level":"http","message":"GET /api/health 200 15 - 0.677 ms - User: anonymous (anonymous)","timestamp":"2026-06-08 14:34:08:348"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2026-06-08 14:34:16:3416"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2026-06-08 14:34:16:3416"}
+{"level":"http","message":"GET /api/tasks 304 - - 35.585 ms - User: soalwin thomas (soalwinthomas@gmail.com)","timestamp":"2026-06-08 14:34:18:3418"}
+{"level":"http","message":"GET /api/tasks 304 - - 6.772 ms - User: soalwin thomas (soalwinthomas@gmail.com)","timestamp":"2026-06-08 14:34:18:3418"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2026-06-08 14:36:13:3613"}
+{"level":"info","message":"Server is running on port 5000","timestamp":"2026-06-08 14:36:13:3613"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2026-06-08 14:36:18:3618"}
+[2m2026-06-08 14:47:12:4712[0m [[32mINFO[39m]: [32mConnected to MongoDB[0m
+[2m2026-06-08 14:47:12:4712[0m [[32mINFO[39m]: [32mServer is running on port 5000[0m
+[2m2026-06-08 14:47:18:4718[0m [[32mINFO[39m]: [32mConnected to MongoDB[0m
+[2m2026-06-08 14:47:18:4718[0m [[32mINFO[39m]: [32mServer is running on port 5000[0m
+[2m2026-06-08 14:47:23:4723[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/user/me[0m [32m200[0m 421 - 21.718 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwin@gmail.com)[0m
+[2m2026-06-08 14:47:23:4723[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/health[0m [32m200[0m 15 - 0.652 ms - [2mUser: [37m[1manonymous[0m [37m[1m(anonymous)[0m
+[2m2026-06-08 14:47:33:4733[0m [[32mINFO[39m]: [32mConnected to MongoDB[0m
+[2m2026-06-08 14:47:33:4733[0m [[32mINFO[39m]: [32mServer is running on port 5000[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/uploads/profilePicture-1779260037740-725820745.jpeg[0m [36m304[0m - - 23.221 ms - [2mUser: [37m[1manonymous[0m [37m[1m(anonymous)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/user/me[0m [36m304[0m - - 54.334 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/tasks[0m [36m304[0m - - 25.663 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/user/notifications[0m [36m304[0m - - 27.975 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/tasks[0m [36m304[0m - - 10.607 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/user/me[0m [36m304[0m - - 25.671 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/tasks[0m [36m304[0m - - 7.486 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:06:486[0m [[35mHTTP[39m]: [34mGET[0m [36m/api/tasks[0m [36m304[0m - - 7.339 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:20:4820[0m [[35mHTTP[39m]: [32mPOST[0m [36m/api/tasks[0m [32m201[0m 296 - 45.740 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+[2m2026-06-08 14:48:22:4822[0m [[35mHTTP[39m]: [33mPUT[0m [36m/api/tasks/6a2688dc9b3fa2852d7c7bb5[0m [32m200[0m 298 - 31.152 ms - [2mUser: [37m[1msoalwin[0m [37m[1mthomas[0m [37m[1m(soalwinthomas@gmail.com)[0m
+2026-06-08 14:49:16:4916 [INFO]: Connected to MongoDB
+2026-06-08 14:49:16:4916 [INFO]: Server is running on port 5000
+2026-06-08 14:49:26:4926 [INFO]: Connected to MongoDB
+2026-06-08 14:49:26:4926 [INFO]: Server is running on port 5000
+2026-06-08 14:49:32:4932 [INFO]: Connected to MongoDB
+2026-06-08 14:49:32:4932 [INFO]: Server is running on port 5000
+2026-06-08 14:49:37:4937 [HTTP]: GET /api/user/me | Status: 200 | Size: 421 B | Time: 19.867 ms | User: soalwin thomas (soalwin@gmail.com)
+2026-06-08 14:49:37:4937 [HTTP]: GET /api/health | Status: 200 | Size: 15 B | Time: 0.519 ms | User: anonymous (anonymous)
+2026-06-08 14:49:48:4948 [INFO]: Connected to MongoDB
+2026-06-08 14:49:48:4948 [INFO]: Server is running on port 5000
+2026-06-08 14:50:12:5012 [HTTP]: POST /api/tasks | Status: 201 | Size: 290 B | Time: 68.623 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-08 14:50:34:5034 [HTTP]: GET /api/tasks | Status: 200 | Size: 3408 B | Time: 16.501 ms | User: soalwin thomas (soalwin@gmail.com)
+2026-06-08 14:50:34:5034 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 13.752 ms | User: soalwin thomas (soalwin@gmail.com)
+2026-06-08 14:51:39:5139 [HTTP]: POST /api/login | Status: - | Size: - B | Time: - ms | User: anonymous (anonymous)
+2026-06-08 14:52:04:524 [HTTP]: POST /api/login | Status: - | Size: - B | Time: - ms | User: anonymous (anonymous)
+2026-06-08 14:52:41:5241 [HTTP]: POST /api/login | Status: 200 | Size: 123 B | Time: 2923.615 ms | User: anonymous (anonymous)
+2026-06-08 14:52:45:5245 [HTTP]: POST /api/login | Status: 200 | Size: 123 B | Time: 3565.879 ms | User: anonymous (anonymous)
+2026-06-08 14:53:01:531 [HTTP]: POST /api/verify-otp | Status: 200 | Size: 1156 B | Time: 14.120 ms | User: anonymous (anonymous)
+2026-06-08 14:53:01:531 [HTTP]: GET /api/uploads/profilePicture-1778734473730-277927101.jpg | Status: 304 | Size: - B | Time: 5.422 ms | User: anonymous (anonymous)
+2026-06-08 14:53:01:531 [HTTP]: GET /api/user/notifications | Status: 200 | Size: 499 B | Time: 12.515 ms | User: test (test@gmail.com)
+2026-06-08 14:53:01:531 [HTTP]: GET /api/tasks | Status: 200 | Size: 1188 B | Time: 22.521 ms | User: test (test@gmail.com)
+2026-06-08 14:53:01:531 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 8.060 ms | User: test (test@gmail.com)
+2026-06-08 14:53:14:5314 [HTTP]: POST /api/tasks | Status: 201 | Size: 299 B | Time: 12.168 ms | User: test (test@gmail.com)
+2026-06-08 14:53:41:5341 [HTTP]: PUT /api/user/notifications/read-all | Status: 200 | Size: 46 B | Time: 12.010 ms | User: test (test@gmail.com)
+2026-06-08 17:48:24:4824 [INFO]: Connected to MongoDB
+2026-06-08 17:48:24:4824 [INFO]: Server is running on port 5000

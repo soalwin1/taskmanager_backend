@@ -1,0 +1,40 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\soalwin thomas\\.d7f736434e73a5a292931dd1065f62d7258962a4-audit.json",
+    "files": [
+        {
+            "date": 1780910412203,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\soalwin thomas\\combined-2026-06-08.log",
+            "hash": "49087475c803763aba6a4ff6c2f00b63485cb40060dd0ad8024826d690c6ef2a"
+        },
+        {
+            "date": 1781062657691,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\soalwin thomas\\combined-2026-06-10.log",
+            "hash": "acee855ec9c219f512f2230f565aea5f741682f76f91ab0bfef5f0ef413990a5"
+        },
+        {
+            "date": 1781177858922,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\soalwin thomas\\combined-2026-06-11.log",
+            "hash": "2c0a08c9db9b7b34d156c0ba3882a1079ad99f5c7f4f2fc98da53bda44a3543e"
+        },
+        {
+            "date": 1781237006163,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\soalwin thomas\\combined-2026-06-12.log",
+            "hash": "6e863da464cb47d3264ae1b8323f794451da642cf40d8a9c031e61eecf7d723a"
+        },
+        {
+            "date": 1781675903435,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\soalwin thomas\\combined-2026-06-17.log",
+            "hash": "bdd3026c7c4d81f5719f9ea6d0a5fa0cf286ba1b2ec1fdce44528b47e3356616"
+        },
+        {
+            "date": 1782104496434,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\soalwin thomas\\combined-2026-06-22.log",
+            "hash": "3df477aa560546920b8e92ab0c35a9c40967efdd20ce2b2645feb60ee7452d25"
+        }
+    ],
+    "hashType": "sha256"
+}

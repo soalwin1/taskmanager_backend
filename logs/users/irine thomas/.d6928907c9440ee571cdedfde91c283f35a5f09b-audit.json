@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\irine thomas\\.d6928907c9440ee571cdedfde91c283f35a5f09b-audit.json",
+    "files": [
+        {
+            "date": 1782119343321,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\irine thomas\\combined-2026-06-22.log",
+            "hash": "9bae4e24c26fb185d344603c39ca50f22dfde8459ae85ff78d8fc16d82c6bd07"
+        },
+        {
+            "date": 1782189091599,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\irine thomas\\combined-2026-06-23.log",
+            "hash": "3a02234b0d961b3311ca31e2197ef651ddd3a8592035662b68be9e0096f9b6c0"
+        }
+    ],
+    "hashType": "sha256"
+}

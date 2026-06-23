@@ -1,0 +1,11 @@
+2026-06-17 11:27:26:2726 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:27:2727 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:27:2727 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:28:2728 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:28:2728 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:29:2729 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:31:2731 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:32:2732 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:34:2734 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:35:2735 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:37:2737 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379

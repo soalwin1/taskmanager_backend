@@ -1,0 +1,141 @@
+2026-06-17 11:27:26:2726 [INFO]: Connected to MongoDB
+2026-06-17 11:27:26:2726 [INFO]: Server is running on port 5000
+2026-06-17 11:27:26:2726 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:26:2726 [WARN]: [Redis] Reconnecting... attempt 1 (next in 200ms)
+2026-06-17 11:27:26:2726 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:26:2726 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:27:2727 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:27:2727 [WARN]: [Redis] Reconnecting... attempt 2 (next in 400ms)
+2026-06-17 11:27:27:2727 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:27:2727 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:27:2727 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:27:2727 [WARN]: [Redis] Reconnecting... attempt 3 (next in 600ms)
+2026-06-17 11:27:27:2727 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:27:2727 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:28:2728 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:28:2728 [WARN]: [Redis] Reconnecting... attempt 4 (next in 800ms)
+2026-06-17 11:27:28:2728 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:28:2728 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:28:2728 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:28:2728 [WARN]: [Redis] Reconnecting... attempt 5 (next in 1000ms)
+2026-06-17 11:27:28:2728 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:28:2728 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:29:2729 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:29:2729 [WARN]: [Redis] Reconnecting... attempt 6 (next in 1200ms)
+2026-06-17 11:27:29:2729 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:29:2729 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:31:2731 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:31:2731 [WARN]: [Redis] Reconnecting... attempt 7 (next in 1400ms)
+2026-06-17 11:27:31:2731 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:31:2731 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:32:2732 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:32:2732 [WARN]: [Redis] Reconnecting... attempt 8 (next in 1600ms)
+2026-06-17 11:27:32:2732 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:32:2732 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:34:2734 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:34:2734 [WARN]: [Redis] Reconnecting... attempt 9 (next in 1800ms)
+2026-06-17 11:27:34:2734 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:34:2734 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:35:2735 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:35:2735 [WARN]: [Redis] Reconnecting... attempt 10 (next in 2000ms)
+2026-06-17 11:27:35:2735 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:35:2735 [WARN]: [Redis] Attempting to reconnect...
+2026-06-17 11:27:37:2737 [ERROR]: [Redis] Connection error: connect ECONNREFUSED 127.0.0.1:6379
+2026-06-17 11:27:37:2737 [WARN]: [Redis] Max reconnection attempts reached. Giving up.
+2026-06-17 11:27:37:2737 [WARN]: [Redis] Connection closed
+2026-06-17 11:27:41:2741 [HTTP]: GET /api/user/me | Status: 401 | Size: 32 B | Time: 11.579 ms | User: anonymous (anonymous)
+2026-06-17 11:27:42:2742 [HTTP]: GET /api/uploads/profilePicture-1781062850259-160707504.png | Status: 304 | Size: - B | Time: 72.665 ms | User: anonymous (anonymous)
+2026-06-17 11:27:42:2742 [HTTP]: GET /api/user/notifications | Status: 401 | Size: 32 B | Time: 4.037 ms | User: anonymous (anonymous)
+2026-06-17 11:27:42:2742 [HTTP]: GET /api/user/me | Status: 401 | Size: 32 B | Time: 1.504 ms | User: anonymous (anonymous)
+2026-06-17 11:27:42:2742 [HTTP]: GET /api/tasks | Status: 401 | Size: 32 B | Time: 1.264 ms | User: anonymous (anonymous)
+2026-06-17 11:27:42:2742 [HTTP]: GET /api/tasks | Status: 401 | Size: 32 B | Time: 1.116 ms | User: anonymous (anonymous)
+2026-06-17 11:27:56:2756 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:27:59:2759 [HTTP]: POST /api/login | Status: 200 | Size: 132 B | Time: 3632.207 ms | User: anonymous (anonymous)
+2026-06-17 11:28:23:2823 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: otp
+2026-06-17 11:28:23:2823 [HTTP]: POST /api/verify-otp | Status: 200 | Size: 1196 B | Time: 56.921 ms | User: anonymous (anonymous)
+2026-06-17 11:28:23:2823 [HTTP]: GET /api/uploads/profilePicture-1781062850259-160707504.png | Status: 304 | Size: - B | Time: 1.217 ms | User: anonymous (anonymous)
+2026-06-17 11:28:23:2823 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 49.341 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 11:28:23:2823 [HTTP]: GET /api/user/notifications | Status: 304 | Size: - B | Time: 111.333 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 11:28:23:2823 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 6.669 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 11:31:35:3135 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:31:37:3137 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2572.012 ms | User: anonymous (anonymous)
+2026-06-17 11:31:45:3145 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:31:48:3148 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2723.310 ms | User: anonymous (anonymous)
+2026-06-17 11:31:49:3149 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:31:52:3152 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2630.322 ms | User: anonymous (anonymous)
+2026-06-17 11:31:53:3153 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:31:56:3156 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2782.323 ms | User: anonymous (anonymous)
+2026-06-17 11:31:57:3157 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:00:320 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2654.134 ms | User: anonymous (anonymous)
+2026-06-17 11:32:01:321 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:04:324 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2811.332 ms | User: anonymous (anonymous)
+2026-06-17 11:32:05:325 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:08:328 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2651.518 ms | User: anonymous (anonymous)
+2026-06-17 11:32:08:328 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:12:3212 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 3515.517 ms | User: anonymous (anonymous)
+2026-06-17 11:32:21:3221 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:21:3221 [HTTP]: POST /api/login | Status: 200 | Size: 110 B | Time: 110.803 ms | User: anonymous (anonymous)
+2026-06-17 11:32:31:3231 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:34:3234 [HTTP]: POST /api/login | Status: 200 | Size: 123 B | Time: 2955.589 ms | User: anonymous (anonymous)
+2026-06-17 11:32:45:3245 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:45:3245 [HTTP]: POST /api/login | Status: 400 | Size: 39 B | Time: 2.679 ms | User: anonymous (anonymous)
+2026-06-17 11:32:53:3253 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:32:53:3253 [HTTP]: POST /api/login | Status: 400 | Size: 39 B | Time: 4.322 ms | User: anonymous (anonymous)
+2026-06-17 11:32:59:3259 [WARN]: [RateLimiter] Redis not ready — skipping rate limit check for route: login
+2026-06-17 11:33:02:332 [HTTP]: POST /api/login | Status: 200 | Size: 132 B | Time: 2612.897 ms | User: anonymous (anonymous)
+2026-06-17 11:37:27:3727 [INFO]: Connected to MongoDB
+2026-06-17 11:37:27:3727 [INFO]: Server is running on port 5000
+2026-06-17 11:37:27:3727 [INFO]: [Redis] Connected successfully
+2026-06-17 11:37:27:3727 [INFO]: [Redis] Client is ready to accept commands
+2026-06-17 11:38:17:3817 [HTTP]: POST /api/login | Status: 200 | Size: 132 B | Time: 2969.137 ms | User: anonymous (anonymous)
+2026-06-17 11:38:44:3844 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2636.852 ms | User: anonymous (anonymous)
+2026-06-17 11:38:48:3848 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2554.696 ms | User: anonymous (anonymous)
+2026-06-17 11:38:52:3852 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2763.363 ms | User: anonymous (anonymous)
+2026-06-17 11:38:56:3856 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 3094.421 ms | User: anonymous (anonymous)
+2026-06-17 11:38:57:3857 [WARN]: [RateLimiter] IP ::1 exceeded limit on route [login] — count: 6/5
+2026-06-17 11:38:57:3857 [HTTP]: POST /api/login | Status: 429 | Size: 86 B | Time: 2.693 ms | User: anonymous (anonymous)
+2026-06-17 11:55:35:5535 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2946.227 ms | User: anonymous (anonymous)
+2026-06-17 11:55:44:5544 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2605.011 ms | User: anonymous (anonymous)
+2026-06-17 14:10:05:105 [HTTP]: GET /api/uploads/profilePicture-1781062850259-160707504.png | Status: 304 | Size: - B | Time: 23.110 ms | User: anonymous (anonymous)
+2026-06-17 14:10:06:106 [HTTP]: GET /api/user/me | Status: 304 | Size: - B | Time: 82.529 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:10:06:106 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 72.457 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:10:06:106 [HTTP]: GET /api/user/notifications | Status: 304 | Size: - B | Time: 64.744 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:10:06:106 [HTTP]: GET /api/user/me | Status: 304 | Size: - B | Time: 46.583 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:10:06:106 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 10.265 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:10:06:106 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 10.098 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:10:06:106 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 12.133 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:57:4457 [HTTP]: GET /api/admin/tasks | Status: 403 | Size: 59 B | Time: 5.199 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:57:4457 [HTTP]: GET /api/admin/tasks/all | Status: 403 | Size: 59 B | Time: 3.593 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:57:4457 [HTTP]: GET /api/admin/tasks | Status: 403 | Size: 59 B | Time: 2.292 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:57:4457 [HTTP]: GET /api/admin/tasks/all | Status: 403 | Size: 59 B | Time: 1.897 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:57:4457 [HTTP]: GET /api/admin/users | Status: 200 | Size: 1282 B | Time: 100.796 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:57:4457 [HTTP]: GET /api/admin/users | Status: 304 | Size: - B | Time: 10.687 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:57:4457 [HTTP]: GET /api/uploads/profilePicture-1778825940647-864798375.jpg | Status: 304 | Size: - B | Time: 5.785 ms | User: anonymous (anonymous)
+2026-06-17 14:44:59:4459 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 7.073 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:44:59:4459 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 6.699 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 14:53:31:5331 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 3111.195 ms | User: anonymous (anonymous)
+2026-06-17 14:53:35:5335 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2508.947 ms | User: anonymous (anonymous)
+2026-06-17 14:53:39:5339 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2703.181 ms | User: anonymous (anonymous)
+2026-06-17 14:53:43:5343 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2654.190 ms | User: anonymous (anonymous)
+2026-06-17 14:53:47:5347 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2611.270 ms | User: anonymous (anonymous)
+2026-06-17 14:53:50:5350 [WARN]: [RateLimiter] IP ::1 exceeded limit on route [login] — count: 6/5
+2026-06-17 14:53:50:5350 [HTTP]: POST /api/login | Status: 429 | Size: 86 B | Time: 7.333 ms | User: anonymous (anonymous)
+2026-06-17 15:14:35:1435 [INFO]: Connected to MongoDB
+2026-06-17 15:14:35:1435 [INFO]: Server is running on port 5000
+2026-06-17 15:14:35:1435 [INFO]: [Redis] Connected successfully
+2026-06-17 15:14:35:1435 [INFO]: [Redis] Client is ready to accept commands
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/uploads/profilePicture-1781062850259-160707504.png | Status: 304 | Size: - B | Time: 24.201 ms | User: anonymous (anonymous)
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/user/me | Status: 304 | Size: - B | Time: 126.177 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 32.111 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/user/notifications | Status: 304 | Size: - B | Time: 36.264 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/user/me | Status: 304 | Size: - B | Time: 39.711 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 16.703 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 10.368 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 16:49:41:4941 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 10.150 ms | User: soalwin thomas (soalwinthomas@gmail.com)
+2026-06-17 16:50:48:5048 [HTTP]: POST /api/login | Status: 200 | Size: 132 B | Time: 4619.380 ms | User: anonymous (anonymous)
+2026-06-17 17:04:21:421 [HTTP]: POST /api/login | Status: 200 | Size: 132 B | Time: 3970.007 ms | User: anonymous (anonymous)
+2026-06-17 17:42:28:4228 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2983.096 ms | User: anonymous (anonymous)
+2026-06-17 17:53:17:5317 [INFO]: Connected to MongoDB
+2026-06-17 17:53:17:5317 [INFO]: Server is running on port 5000
+2026-06-17 17:53:17:5317 [INFO]: [Redis] Connected successfully
+2026-06-17 17:53:17:5317 [INFO]: [Redis] Client is ready to accept commands

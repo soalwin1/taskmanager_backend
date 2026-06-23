@@ -1,0 +1,5 @@
+2026-06-08 14:53:01:531 [HTTP]: GET /api/user/notifications | Status: 200 | Size: 499 B | Time: 12.515 ms | User: test (test@gmail.com)
+2026-06-08 14:53:01:531 [HTTP]: GET /api/tasks | Status: 200 | Size: 1188 B | Time: 22.521 ms | User: test (test@gmail.com)
+2026-06-08 14:53:01:531 [HTTP]: GET /api/tasks | Status: 304 | Size: - B | Time: 8.060 ms | User: test (test@gmail.com)
+2026-06-08 14:53:14:5314 [HTTP]: POST /api/tasks | Status: 201 | Size: 299 B | Time: 12.168 ms | User: test (test@gmail.com)
+2026-06-08 14:53:41:5341 [HTTP]: PUT /api/user/notifications/read-all | Status: 200 | Size: 46 B | Time: 12.010 ms | User: test (test@gmail.com)

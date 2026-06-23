@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\test\\.873c3b515cd0411c81b679eb2faca1290ba5156c-audit.json",
+    "files": [
+        {
+            "date": 1780910581738,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\test\\error-2026-06-08.log",
+            "hash": "94a9ed20847417417e9a81d6bd384c26eb23c37f1b145f5b526cafde9888a23c"
+        }
+    ],
+    "hashType": "sha256"
+}

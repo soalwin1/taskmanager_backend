@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\raju abraham\\.49064d1250600e8a55802ca8e6cf752764fdccd0-audit.json",
+    "files": [
+        {
+            "date": 1782108152827,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\raju abraham\\error-2026-06-22.log",
+            "hash": "2ecdd1a3e3cdc4425088ff5d7a9ff4fb63fa04cf6feacdeccb2eb65df328fa13"
+        }
+    ],
+    "hashType": "sha256"
+}

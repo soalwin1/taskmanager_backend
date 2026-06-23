@@ -1,0 +1,11 @@
+2026-06-18 09:47:01:471 [INFO]: Connected to MongoDB
+2026-06-18 09:47:01:471 [INFO]: Server is running on port 5000
+2026-06-18 09:47:01:471 [INFO]: [Redis] Connected successfully
+2026-06-18 09:47:01:471 [INFO]: [Redis] Client is ready to accept commands
+2026-06-18 10:15:19:1519 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 3572.566 ms | User: anonymous (anonymous)
+2026-06-18 10:15:39:1539 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 3031.014 ms | User: anonymous (anonymous)
+2026-06-18 10:15:44:1544 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2689.266 ms | User: anonymous (anonymous)
+2026-06-18 10:15:48:1548 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2644.527 ms | User: anonymous (anonymous)
+2026-06-18 10:15:53:1553 [HTTP]: POST /api/login | Status: 200 | Size: 126 B | Time: 2729.894 ms | User: anonymous (anonymous)
+2026-06-18 10:15:55:1555 [WARN]: [RateLimiter] IP ::1 exceeded limit on route [login] — count: 6/5
+2026-06-18 10:15:55:1555 [HTTP]: POST /api/login | Status: 429 | Size: 86 B | Time: 3.068 ms | User: anonymous (anonymous)

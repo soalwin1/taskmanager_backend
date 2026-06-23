@@ -1,0 +1,7 @@
+2026-06-11 17:07:38:738 [HTTP]: GET /api/uploads/profilePicture-1779344962274-276432023.jpg | Status: 304 | Size: - B | Time: 5.225 ms | User: anonymous (anonymous)
+2026-06-11 17:07:40:740 [HTTP]: GET /api/uploads/profilePicture-1781062850259-160707504.png | Status: 304 | Size: - B | Time: 1.797 ms | User: anonymous (anonymous)
+2026-06-11 17:07:40:740 [HTTP]: GET /api/uploads/profilePicture-1778734473730-277927101.jpg | Status: 304 | Size: - B | Time: 1.871 ms | User: anonymous (anonymous)
+2026-06-11 17:07:41:741 [HTTP]: GET /api/uploads/profilePicture-1778825940647-864798375.jpg | Status: 304 | Size: - B | Time: 2.861 ms | User: anonymous (anonymous)
+2026-06-11 17:13:28:1328 [HTTP]: GET /api/uploads/profilePicture-1781062850259-160707504.png | Status: 304 | Size: - B | Time: 3.539 ms | User: anonymous (anonymous)
+2026-06-11 17:13:28:1328 [HTTP]: GET /api/uploads/profilePicture-1778734473730-277927101.jpg | Status: 304 | Size: - B | Time: 4.487 ms | User: anonymous (anonymous)
+2026-06-11 17:13:28:1328 [HTTP]: GET /api/uploads/profilePicture-1778825940647-864798375.jpg | Status: 304 | Size: - B | Time: 5.123 ms | User: anonymous (anonymous)

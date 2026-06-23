@@ -1,0 +1,50 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\.26d16bdde8d8147c5c722528075c426a7d1ff0d2-audit.json",
+    "files": [
+        {
+            "date": 1780909438875,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-08.log",
+            "hash": "fb70deb90c05aa16ed5c82523b1e807d2689729ddf940a7b6cb7f09797f0a99e"
+        },
+        {
+            "date": 1781062287497,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-10.log",
+            "hash": "7747d8e212b46f42980378717dbaffe7b6e5c76d4dc08c2d21b01fdd86140c00"
+        },
+        {
+            "date": 1781177842638,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-11.log",
+            "hash": "de6a1933323b9fd2e115d9fbef69cc12a06ce92936af879ec6b635e76b15f96f"
+        },
+        {
+            "date": 1781236928385,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-12.log",
+            "hash": "5992abc62775642f26dd751232e9c0bb042787823cbda9de7d4706d7dfc6dd12"
+        },
+        {
+            "date": 1781675841819,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-17.log",
+            "hash": "5d14a46a37e183623548244231718fa78698e2f402aeb60fb0b1bf531ab49c46"
+        },
+        {
+            "date": 1781756217532,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-18.log",
+            "hash": "df93e29f2fe741c1a12be008da2c1f3ee65dfdfd13078c6a1f5bd731fd7287b9"
+        },
+        {
+            "date": 1782101107646,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-22.log",
+            "hash": "abdc98e9b3515b5190957bb8c78796323c5c00148223b92fc035db75093a4405"
+        },
+        {
+            "date": 1782185878372,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\error-2026-06-23.log",
+            "hash": "7a4aefd6e62c0e5ae1dce083ae52e753d4d5d97b3bd8e5cf4c584ff384945fd3"
+        }
+    ],
+    "hashType": "sha256"
+}

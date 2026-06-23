@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\admin user\\.135661ea22761b3537dee8713e826e8ad6d89dbf-audit.json",
+    "files": [
+        {
+            "date": 1782111291787,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\admin user\\error-2026-06-22.log",
+            "hash": "09d902b815b2efbfe4ecabc5165a756aa2bb4d99002e227a34037fb8fc4148db"
+        },
+        {
+            "date": 1782185999663,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\admin user\\error-2026-06-23.log",
+            "hash": "2257e4b8fe85e4f9a0ee27b6a677214c8f56d7c8f5c1a0ee9993134e8df1d934"
+        }
+    ],
+    "hashType": "sha256"
+}

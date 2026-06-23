@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\mercy onattu\\.28e1663b0aae760b991465e63be48200dbf76ad5-audit.json",
+    "files": [
+        {
+            "date": 1782108340196,
+            "name": "C:\\Users\\soalw\\OneDrive\\Desktop\\inciem tasks\\backend\\logs\\users\\mercy onattu\\combined-2026-06-22.log",
+            "hash": "18353e774a789e4f504c26f821200dceabb1da94b29a766f65fc35190a0d7dc1"
+        }
+    ],
+    "hashType": "sha256"
+}
